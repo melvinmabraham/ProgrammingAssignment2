@@ -2,6 +2,7 @@
 ## We assume that the matrix supplied for this is always invertible.
 
 ## makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse.
+## cache is NULL initially
 
 makeCacheMatrix <- function(x = matrix()) {
         cache <- NULL
